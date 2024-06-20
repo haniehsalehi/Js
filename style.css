@@ -1,0 +1,53 @@
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #f0e4d7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 2.5em;
+    color: #e17055;
+    margin-bottom: 20px;
+}
+
+.quote, .translated-quote {
+    font-size: 1.5em;
+    margin: 20px 0;
+    color: #2d3436;
+    line-height: 1.5;
+}
+
+.translated-quote {
+    font-family: 'Vazir', sans-serif;
+    color: #0984e3;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #e17055;
+    color: #ffffff;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #d35400;
+}
